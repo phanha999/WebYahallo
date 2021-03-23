@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Set dưỡng da Hoàn Lưu Cao mini Phục hồi và trẻ hóa làn da",
+        "price": 2000000,
+        "price_sale": 900000,
+        "img": "https://img.abaha.vn/photos/resized/320x/83-1611904589-myphamohui-lgvina.png"
+    },
+    {
+        "id": 2,
+        "name": "Set Phấn Nước Whoo GongJinhYang Mi Luxury Golden Cushion",
+        "price": 1500000,
+        "price_sale": 1350000,
+        "img": "https://img.abaha.vn/photos/resized/1024x/83-1611561880-myphamohui-lgvina.png"
+    },
+    {
+        "id": 3,
+        "name": "Bộ mini dưỡng trắng Ohui Extreme White 5 món",
+        "price": 875000,
+        "price_sale": 500000,
+        "img": "https://img.abaha.vn/photos/resized/320x/83-1611559957-myphamohui-lgvina.png"
+    },
+    {
+        "id": 4,
+        "name": "Mặt nạ đen thải độc và phục hồi da Su:m37 Bright Award Bubble De Mask Black 50ml",
+        "price": 750000,
+        "price_sale": 450000,
+        "img": "https://img.abaha.vn/photos/resized/320x/83-1611562090-myphamohui-lgvina.png"
+    },
+    {
+        "id": 5,
+        "name": "Kem Dưỡng Vùng Mắt Sum37 Secret Programming Eye Cream ",
+        "price": 2100000,
+        "price_sale": 1890000,
+        "img": "https://img.abaha.vn/photos/resized/320x/83-1610780786-myphamohui-lgvina.png"
+    },
+    {
+        "id": 6,
+        "name": " Son Whoo Luxury Lip Rouge mini",
+        "price": 750000,
+        "price_sale": 350000,
+        "img": "https://img.abaha.vn/photos/resized/320x/83-1600498324-myphamohui-lgvina.png"
+    },
+    {
+        "id": 7,
+        "name": "Set kem chống nắng Whoo Seol radiant white tone up sunscreen SPF50+/PA++++  50 ML",
+        "price": 1250000,
+        "price_sale": 1150000,
+        "img": "https://img.abaha.vn/photos/resized/320x/83-1597318354-myphamohui-lgvina.png"
+    },
+    {
+        "id": 8,
+        "name": "Sữa rửa mặt dưỡng trắng Whoo Seol Brightening Foam cleanser set 220ml",
+        "price": 910000,
+        "price_sale": 819000,
+        "img": "https://img.abaha.vn/photos/resized/320x/83-1596624550-myphamohui-lgvina.png"
+    }
+]
