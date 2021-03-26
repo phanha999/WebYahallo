@@ -11,6 +11,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Register from '../../Features/Auth/Register';
 import Login from '../../Features/Auth/Login';
 import { logOut } from '../../Features/Auth/userSlice';
+import './styles.scss'
 // import PropTypes from 'prop-types';
 
 Header.propTypes = {

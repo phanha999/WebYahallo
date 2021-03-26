@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.scss'
 // import PropTypes from 'prop-types';
 
 NewSP.propTypes = {
@@ -7,13 +8,13 @@ NewSP.propTypes = {
 
 function NewSP(props) {
     return (
-        <div id="app_container">
+        <div id="app_container" className="container_newsp">
   <div className="grid wide">
     <div className="row">
       <div className="col l-9 m-12 c-12 backgroundContact">
         <div className="new_product-wrapper">
           <div className="row">
-            <div className="col l-4 new_product">
+            <div className="col l-4 m-12 c-12 new_product">
               <div className="new_product-img">
                 <a href="/" className="new_product-link">
                   <span className="new_product-linkImg">
@@ -32,7 +33,7 @@ function NewSP(props) {
                 </div>
               </div>
             </div>
-            <div className="col l-4 new_product">
+            <div className="col l-4 m-12 c-12 new_product">
               <div className="new_product-img">
                 <a href="/" className="new_product-link">
                   <span className="new_product-linkImg">
@@ -51,7 +52,7 @@ function NewSP(props) {
                 </div>
               </div>
             </div>
-            <div className="col l-4 new_product">
+            <div className="col l-4 m-12 c-12 new_product">
               <div className="new_product-img">
                 <a href="/" className="new_product-link">
                   <span className="new_product-linkImg">
@@ -70,7 +71,7 @@ function NewSP(props) {
                 </div>
               </div>
             </div>
-            <div className="col l-4 new_product">
+            <div className="col l-4 m-12 c-12 new_product">
               <div className="new_product-img">
                 <a href="/" className="new_product-link">
                   <span className="new_product-linkImg">
@@ -89,7 +90,7 @@ function NewSP(props) {
                 </div>
               </div>
             </div>
-            <div className="col l-4 new_product">
+            <div className="col l-4 m-12 c-12 new_product">
               <div className="new_product-img">
                 <a href="/" className="new_product-link">
                   <span className="new_product-linkImg">

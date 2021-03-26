@@ -123,6 +123,7 @@
       #header .header_navbar .header_navbar-list .header_navbar-item .header_navbar-item--link {
         text-decoration: none;
         color: gray;
+        z-index: 12;
         }
       #header .header_navbar .header_navbar-list .header_navbar-item .header_navbar-item--iconL {
         font-size: 18px; }
