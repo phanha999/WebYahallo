@@ -3,6 +3,8 @@
   --navbar-height: 34px;
   --header-width-search-height: calc(var(--header-height) - var(--navbar-height));
   --header-sort-bar-height: 46px;
+  --header-image_container: 318px;
+  --header-trickger_container: 573px
 }
 
 #main {
@@ -1078,8 +1080,13 @@
   border-bottom-right-radius: 2px;
   transition: transform linear 0.1s;
   will-change: transform;
-  text-decoration: none; }
-
+  text-decoration: none; 
+  overflow: hidden;
+}
+.home_product-item:hover .home_product-shoppingcart {
+  right: 0;
+  opacity: 1;
+}
 .home_product-item:hover {
   box-shadow: 0 1px 20px #8080806e;
   transform: translateY(-2px);
@@ -1096,15 +1103,17 @@
 
 .home_product-shoppingcart {
   position: absolute;
-  top: 60.8%;
-  right: 0;
-  width: 40px;
+  top: 53.6%;
+  right: -100%;
+  width: 100%;
   height: 40px;
   display: flex;
   background-color: rgba(76,175,80,0.8);
   align-items: center;
   justify-content: center;
   border-radius: 2px;
+  opacity: 0;
+  transition: 0.4s
 }
 
 .home_product-iconcart {
@@ -1113,16 +1122,17 @@
 }
 
 .home_product-name {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #333333;
   font-weight: 400;
-  line-height: 1.6rem;
+  line-height: 3rem;
   height: 3.2rem;
   overflow: hidden;
   display: block;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2; }
+  -webkit-line-clamp: 1;
+}
 
 .home_product-price {
   font-size: 1.7rem;
@@ -1764,3 +1774,104 @@ text-overflow: ellipsis;
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* CODE CSS IMAGE CONTAINER */
+
+.image_container {
+  height: var(--header-image_container);
+}
+.image_wrapper,
+.image_list,
+.image_item,
+.image_link {
+  height: 100%;
+  width: 100%;
+}
+.image_list {display: inline-flex;}
+.image_link {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.image_wrapper {
+  margin: 25px 0px 0px 0px;
+}
+.image_item {
+  overflow: hidden;
+}
+.image_link {
+  transition: 1.8s;
+}
+.image_item .image_link:hover, 
+.trickger_img .trickger_post-img:hover
+{
+  transform: scale(1.2);
+}
+
+/* CSS TRICKGER CONTAINER */
+.trickger_container {
+padding-top: 50px;
+padding-bottom: 90px;
+}
+.trickger_title {
+text-align: center;
+font-size: 5.5rem;
+font-weight: 600;
+margin-bottom: 40px;
+}
+.trickger_post-top {
+overflow: hidden;
+}
+.trickger_img {
+position: relative;
+}
+.trickger_post-img {
+width: 100%;
+transition: 1.8s;
+}
+.trickger_post-list {position: absolute;bottom: 112px;display: flex;height: 50px;align-items: center;justify-content: space-between;background-color: white;width: 94%;margin-bottom: 0;}
+.trickger_post-item {
+list-style: none;
+}
+.trickger_post-itemv1 {
+  color: gray;
+  margin-right: 12px;
+}
+.trickger_post-itemv1:before {
+  content: "";
+  padding: 7px 0px;
+  margin: 0 17px;
+  border: 1px solid gray;
+}
+.trickger_post-link {
+font-size: 1.8rem;
+color: black;
+}
+.trickger_post-linkv1 {
+  background-color: black;
+  font-weight: 500;
+  color: white;
+  padding: 13px 12px 13px 12px;
+}
+.trickger_post-bot {
+    margin-top: 20px;
+}
+.trickger_post-head {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+.trickger_head-link {
+  color: black;
+  font-weight: 500;
+}
+.trickger_post-footer {
+font-size: 1.7rem;
+}
+.trickger_hover:hover .trickger_post-linkv1 {
+  color: white;
+  background-color: #EE4D2D;
+  text-decoration: none;
+}
+.trickger_hover:hover .trickger_head-link {
+  color: #EE4D2D;
+  text-decoration: none;
+}
