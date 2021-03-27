@@ -53,6 +53,7 @@
     .app_footer {
         margin-top: 25px;
         padding: 5px 10px;
+        text-align: left;
     }
     .trickger_hover {
         margin-top: 30px;
@@ -75,7 +76,7 @@
         overflow: inherit;
     }
     .home_product-shoppingcart {
-        top: 54.8%;
+        top: 57.8%;
     }
     .cart_section-wrapper {
         margin: 25px 15px 0 15px;
@@ -121,6 +122,9 @@
         background-color: white;
         width: 95%;
         margin-bottom: 0;
+    }
+    .container_url {
+        margin: 0 15px;
     }
 }
 /* Mobile */
@@ -187,7 +191,7 @@
         text-align: center;
     }
     .home_product-shoppingcart {
-        top: 48.4%;
+        top: 51.4%;
     }
     .cart_header {
         display: none;
@@ -231,5 +235,8 @@
         padding: 10px 21px;}
     .image_container {
         height: 69px;
+    }
+    .container_url {
+        display: none;
     }
 }

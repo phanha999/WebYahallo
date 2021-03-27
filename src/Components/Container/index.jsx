@@ -137,7 +137,7 @@ function Container(props) {
                   <div className="row sm-gutter">
                     <div className="col l-3 m-4-1 c-6">
                       {/* HOME PRODUCT ITEM */}
-                      <a className="home_product-item" href="hehe">
+                      <a className="home_product-item" href="/productdetail">
                         <div className="home_product-img" style={{backgroundImage: 'url(https://img.abaha.vn/photos/resized/320x/83-1586781803-myphamohui-lgvina.png)'}}>
                         </div>
                         <div className="home_product-wrapperCart">
@@ -183,7 +183,7 @@ function Container(props) {
                     {/* HOME PRODUCT END*/}
                     <div className="col l-3 m-4-1 c-6">
                       {/* HOME PRODUCT ITEM */}
-                      <a className="home_product-item" href="hehe">
+                      <a className="home_product-item" href="/productdetail">
                         <div className="home_product-img" style={{backgroundImage: 'url(https://img.abaha.vn/photos/resized/320x/83-1586781803-myphamohui-lgvina.png)'}}>
                         </div>
                         <div className="home_product-wrapperCart">
@@ -229,7 +229,7 @@ function Container(props) {
                     {/* HOME PRODUCT END*/}
                     <div className="col l-3 m-4-1 c-6">
                       {/* HOME PRODUCT ITEM */}
-                      <a className="home_product-item" href="hehe">
+                      <a className="home_product-item" href="/productdetail">
                         <div className="home_product-img" style={{backgroundImage: 'url(https://img.abaha.vn/photos/resized/320x/83-1586781803-myphamohui-lgvina.png)'}}>
                         </div>
                         <div className="home_product-wrapperCart">
@@ -275,7 +275,7 @@ function Container(props) {
                     {/* HOME PRODUCT END*/}
                     <div className="col l-3 m-4-1 c-6">
                       {/* HOME PRODUCT ITEM */}
-                      <a className="home_product-item" href="hehe">
+                      <a className="home_product-item" href="/productdetail">
                         <div className="home_product-img" style={{backgroundImage: 'url(https://img.abaha.vn/photos/resized/320x/83-1586781803-myphamohui-lgvina.png)'}}>
                         </div>
                         <div className="home_product-wrapperCart">
@@ -321,7 +321,7 @@ function Container(props) {
                     {/* HOME PRODUCT END*/}
                     <div className="col l-3 m-4-1 c-6">
                       {/* HOME PRODUCT ITEM */}
-                      <a className="home_product-item" href="hehe">
+                      <a className="home_product-item" href="/productdetail">
                         <div className="home_product-img" style={{backgroundImage: 'url(https://img.abaha.vn/photos/resized/320x/83-1586781803-myphamohui-lgvina.png)'}}>
                         </div>
                         <div className="home_product-wrapperCart">
@@ -367,7 +367,7 @@ function Container(props) {
                     {/* HOME PRODUCT END*/}
                     <div className="col l-3 m-4-1 c-6">
                       {/* HOME PRODUCT ITEM */}
-                      <a className="home_product-item" href="hehe">
+                      <a className="home_product-item" href="/productdetail">
                         <div className="home_product-img" style={{backgroundImage: 'url(https://img.abaha.vn/photos/resized/320x/83-1586781803-myphamohui-lgvina.png)'}}>
                         </div>
                         <div className="home_product-wrapperCart">
@@ -413,7 +413,7 @@ function Container(props) {
                     {/* HOME PRODUCT END*/}
                     <div className="col l-3 m-4-1 c-6">
                       {/* HOME PRODUCT ITEM */}
-                      <a className="home_product-item" href="hehe">
+                      <a className="home_product-item" href="/productdetail">
                         <div className="home_product-img" style={{backgroundImage: 'url(https://img.abaha.vn/photos/resized/320x/83-1586781803-myphamohui-lgvina.png)'}}>
                         </div>
                         <div className="home_product-wrapperCart">
@@ -459,7 +459,7 @@ function Container(props) {
                     {/* HOME PRODUCT END*/}
                     <div className="col l-3 m-4-1 c-6">
                       {/* HOME PRODUCT ITEM */}
-                      <a className="home_product-item" href="hehe">
+                      <a className="home_product-item" href="/productdetail">
                         <div className="home_product-img" style={{backgroundImage: 'url(https://img.abaha.vn/photos/resized/320x/83-1586781803-myphamohui-lgvina.png)'}}>
                         </div>
                         <div className="home_product-wrapperCart">
