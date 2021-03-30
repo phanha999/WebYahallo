@@ -231,7 +231,9 @@ function Header(props) {
         <a href="/" className="header_search-link">
           <img src="image/logo1.png" className="header_search-img" alt="error" /></a>		
       </div>
-      <div className="header_search-inputSearch none_mobile">
+
+      <form className="header_search-inputSearch none_mobile">
+        
         <div className="header_search-wrapInput">
           <input type="text" placeholder="Nhập để tìm kiếm" className="header_search-input" />
           {/* SEARCH HISTORY */}
@@ -248,6 +250,7 @@ function Header(props) {
           </div>
           {/* SEARCH HISTORY END */}
         </div>
+
         <div className="header_search-select">
           <span className="header_search-select-label">Cửa hàng</span>
           <i className="fa fa-angle-down header_search-selectIcon " aria-hidden="true" />
@@ -262,10 +265,13 @@ function Header(props) {
             </li>
           </ul>
         </div>
+
         <button className="header_search-button">
           <i className="fa fa-search" aria-hidden="true" />
         </button>
-      </div>
+
+      </form>
+
       <div className="header_search-icon">
         <div className="header_search-classIcon">
           <i className="fa fa-shopping-cart header_search-buttonIcon " aria-hidden="true" />

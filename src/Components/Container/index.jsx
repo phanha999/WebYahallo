@@ -53,13 +53,13 @@ function Container(props) {
                     Danh mục
                   </h3>
                   <ul className="category_list">
-                    <li className="category_item category_active"><a href="hehe" className="category_link">Tất cả sản phẩm</a></li>
-                    <li className="category_item"><a href="hehe" className="category_link">Ohui</a></li>
-                    <li className="category_item"><a href="hehe" className="category_link">Whoo</a></li>
-                    <li className="category_item"><a href="hehe" className="category_link">Su:m37</a></li>
-                    <li className="category_item"><a href="hehe" className="category_link">Set mini</a></li>
-                    <li className="category_item"><a href="hehe" className="category_link">Thực phẩm chức năng</a></li>
-                    <li className="category_item"><a href="hehe" className="category_link">Dịch vụ</a></li>
+                    <li className="category_item category_active"><a href="/" className="category_link">Tất cả sản phẩm</a></li>
+                    <li className="category_item"><a href="/" className="category_link">Ohui</a></li>
+                    <li className="category_item"><a href="/" className="category_link">Whoo</a></li>
+                    <li className="category_item"><a href="/" className="category_link">Su:m37</a></li>
+                    <li className="category_item"><a href="/" className="category_link">Set mini</a></li>
+                    <li className="category_item"><a href="/" className="category_link">Thực phẩm chức năng</a></li>
+                    <li className="category_item"><a href="/" className="category_link">Dịch vụ</a></li>
                   </ul>
                 </nav>					
               </div>
