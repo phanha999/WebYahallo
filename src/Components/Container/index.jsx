@@ -12,11 +12,6 @@ function Container(props) {
         <div id="app_container">
 
           <div id="carouselId" className="carousel slide" data-ride="carousel">
-                <ol className="carousel-indicators">
-                    <li data-target="#carouselId" data-slide-to={0} className="active" />
-                    <li data-target="#carouselId" data-slide-to={1} />
-                    <li data-target="#carouselId" data-slide-to={2} />
-                </ol>
                 <div className="carousel-inner" role="listbox">
                     <div className="carousel-item active">
                     <img src="image/banner2.jpg" alt="First slide" />

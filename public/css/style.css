@@ -84,7 +84,8 @@
 .category_item,
 .select_input-icon,
 .home_product-item,
-.home_page-link {
+.home_page-link,
+.trickger_hover {
   cursor: pointer; }
 
 .header_search-button:hover {
@@ -586,6 +587,7 @@
   border-radius: 3px;
   box-shadow: 0 1px 2px #80808045;
   display: none;
+  text-align: left;
   z-index: 1; }
 
 .header_search-history--heading {
@@ -1133,10 +1135,11 @@
   font-size: 1.5rem;
   color: #333333;
   font-weight: 400;
-  line-height: 1.6rem;
+  line-height: 31px;
   height: 3.2rem;
   overflow: hidden;
   display: block;
+  text-align: left;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2; }

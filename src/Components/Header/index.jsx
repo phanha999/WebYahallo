@@ -287,7 +287,7 @@ function Header(props) {
             <h3 className="header_cart-heading ">Sản Phẩm Mới Thêm</h3>
             <ul className="header_cart-list">
               <li className="header_cart-item">
-                <img src="image/product1.png" alt="" className="header_cart-img" />
+                <img src="image/1.png" alt="" className="header_cart-img" />
                 <div className="header_cart-info">
                   <div className="header_cart-head">
                     <h5 className="header_cart-name">Full Bộ Light Novel Darling in the FranXX</h5>
@@ -303,7 +303,7 @@ function Header(props) {
                 </div>				
               </li>	
               <li className="header_cart-item">
-                <img src="image/product1.png" alt="" className="header_cart-img" />
+                <img src="image/2.jpg" alt="" className="header_cart-img" />
                 <div className="header_cart-info">
                   <div className="header_cart-head">
                     <h5 className="header_cart-name">Full Bộ Light Novel Darling in the FranXX</h5>
@@ -319,7 +319,7 @@ function Header(props) {
                 </div>				
               </li>	
               <li className="header_cart-item">
-                <img src="image/product1.png" alt="" className="header_cart-img" />
+                <img src="image/3.jpg" alt="" className="header_cart-img" />
                 <div className="header_cart-info">
                   <div className="header_cart-head">
                     <h5 className="header_cart-name">Full Bộ Light Novel Darling in the FranXX</h5>
